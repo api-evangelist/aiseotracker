@@ -1,0 +1,31 @@
+aid: aiseotracker
+name: AI SEO Tracker MCP
+description: 'AI SEO Tracker MCP is a company surfaced via the API Evangelist harvest backlog (source:
+  new-submission) and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/aiseotracker/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-08'
+modified: '2026-11-08'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://aiseotracker.com
+- type: Documentation
+  url: https://aiseotracker.com/docs/mcp
+x-submission-notes: ' Remote MCP server to track brand visibility, citations, prompts, competitors, and
+  missing citation sources across ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews. Connect
+  https://aiseotracker.com/mcp (or https://aiseotracker.com/api/agent/mcp) via Streamable HTTP. | MCP
+  Endpoint: http'
+x-submission-probe: 2026-11-07 root 200, ctl 404
+x-submitted-by: support@aiseotracker.com (submission, 2026-11-07)
